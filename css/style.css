@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.models,
+.contact {
+  padding: 20px;
+}
+
+.model img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .models {
+    display: flex;
+    justify-content: space-around;
+  }
+  .model {
+    text-align: center;
+  }
+}
